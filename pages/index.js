@@ -15,12 +15,12 @@ export default function Home() {
 					<li>James might be straight</li>
 				</ul>
 			</div>
-			<div className="absolute bottom-0 left-0 flex flex-row">
+			{/* <div className="absolute bottom-0 left-0 flex flex-row">
 				<img className=" h-[90vh]" src="/catman.png" alt="Catman" />
 				<p className="relative top-[70vh] text-4xl">
 					← This man however, is not
 				</p>
-			</div>
+			</div> */}
 		</div>
 	);
 }
