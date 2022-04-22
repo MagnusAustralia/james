@@ -5,15 +5,15 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
 	return (
 		<div className="grid place-content-center text-center">
-			<div className="bg-[#EEE] w-screen inline-block align-middle py-4 mb-10">
-				<h1 className="text-4xl text-[#21216d] font-extrabold	">
+			<div className="bg-[#EEE] lg:w-screen lg:inline-block lg:align-middle lg:py-4 lg:mb-10">
+				<h1 className="lg:text-4xl lg:text-[#21216d] lg:font-extrabold lg:block hidden	">
 					How is James Superior to Phurup Mabo (2nd CatMan)
 				</h1>
 			</div>
-			<div className="">
+			<div className="lg:block hidden">
 				<ul>
 					<li>James is bisexual</li>
-					<p className="mx-[33%] w-[33%]">
+					<p className="lg:mx-[33%] lg:w-[33%] lg:block hidden">
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
 						laudantium, esse temporibus minima architecto perferendis numquam
 						pariatur molestias sed cupiditate odio hic, quos ut consequatur
@@ -42,8 +42,12 @@ export default function Home() {
 				</ul>
 			</div>
 			<div className="absolute bottom-0 left-0 flex flex-row">
-				<img className=" h-[90vh]" src="/catman.png" alt="Catman" />
-				<p className="relative top-[70vh] text-4xl">
+				<img
+					className="lg:h-[90vh] h-screen w-auto"
+					src="/catman.png"
+					alt="Catman"
+				/>
+				<p className="relative top-[70vh] text-4xl lg:block hidden">
 					← This man however, is not
 				</p>
 			</div>
