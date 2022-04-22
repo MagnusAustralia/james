@@ -12,7 +12,7 @@ export default function Home() {
 			</div>
 			<div className="">
 				<ul>
-					<li>James might be straight</li>
+					<li>James is be bisexual</li>
 				</ul>
 			</div>
 			<div className="absolute bottom-0 left-0 flex flex-row">
