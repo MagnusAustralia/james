@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+
+.nav {
+	position: absolute;
+	width: 100vw;
+	height: 124px;
+	left: 0px;
+	top: 0px;
+	z-index: 0;
+	background: #25a3cb;
+}
+.else {
+	z-index: 1;
+}
+
+.list {
+	list-style-type: none;
+}
+
+.li {
+	float: left;
+	margin-right: 50px;
+}
+
+.active {
+	padding: 20px;
+	background: red;
+}
+
+@media screen and (max-width: 390px) {
+	.Button {
+		font-size: 2.7em;
+	}
+}
+
+@media screen and (max-width: 767px) and (min-width: 480px) {
+	.title {
+		padding-left: 6rem;
+	}
+}
