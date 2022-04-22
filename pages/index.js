@@ -13,7 +13,7 @@ export default function Home() {
 			<div className="">
 				<ul>
 					<li>James is bisexual</li>
-					<p>
+					<p className="mx-[33%] w-[33%]">
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
 						laudantium, esse temporibus minima architecto perferendis numquam
 						pariatur molestias sed cupiditate odio hic, quos ut consequatur
